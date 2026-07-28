@@ -114,6 +114,15 @@
             <img src="public/images/portfolio-pic.jpg" alt="Olubayo Wisdom" loading="eager" />
           </div>
           <p class="eyebrow">Software Engineer, Product Designer</p>
+          <a
+            class="founder-line"
+            href="https://reslve.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Founder · Reslve
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
           <div class="hero-socials" aria-label="Social links">
             <a
               href="https://x.com/WisdomOlubayo"
@@ -180,7 +189,6 @@
               target="_blank"
               rel="noreferrer"
             >
-              <i data-lucide="calendar-check" aria-hidden="true"></i>
               <span>Book a call</span>
             </a>
           </div>
@@ -204,57 +212,66 @@
 
         <div class="project-grid">
           <article class="project-card feature-card">
-            <div class="project-visual manufacturing image-visual">
+            <div class="project-visual fintech image-visual">
               <img
-                src="public/images/ekomass.png"
-                alt="Ekomass manufacturing marketplace system"
+                src="public/images/autopilot.png"
+                alt="Autopilot Nigerian bill-payment fintech app"
                 loading="lazy"
               />
             </div>
             <div class="project-content">
               <div class="card-topline">
-                <span
-                  ><i data-lucide="factory" aria-hidden="true"></i>Ekomass</span
-                >
-                <span>Go / Gin / PostgreSQL</span>
+                <span>Autopilot</span>
+                <span>Fintech / Mobile + Web</span>
               </div>
-              <h3>Multi-sided manufacturing marketplace backend</h3>
+              <h3>
+                Nigerian bill-payment app that puts recurring bills on autopilot
+              </h3>
               <p>
-                Architected 50+ REST endpoints across onboarding, catalog,
-                marketplace feed, ordering, escrow, referrals, production
-                batches, and identity workflows.
+                Fund one smart Monnify wallet and Autopilot automatically pays
+                electricity, cable TV, airtime, data, and subscriptions on
+                time—every time. Priority ranking ensures the most important
+                bills clear first when funds are limited, with receipts after
+                each payment. Trusted by Monnify and 9k+ users.
               </p>
               <ul class="impact-list">
                 <li>
-                  20+ marketplace and payment entities with indexes, audit
-                  trails, and constraints.
+                  Smart wallet with a dedicated Monnify reserved account—fund
+                  anytime and balances update instantly.
                 </li>
                 <li>
-                  Transactional order creation with inventory reservation and
-                  escrow handling.
+                  Auto-pay engine with amount, due date, and priority per bill;
+                  highest-priority payments clear first when money is tight.
                 </li>
                 <li>
-                  TTL cached NGN-to-USD conversion with fallback rates for
-                  resilience.
+                  Biometric security (Face ID / fingerprint) plus transaction
+                  PIN, with bank-grade protection on Monnify rails and encrypted
+                  storage.
                 </li>
               </ul>
+              <a
+                class="project-link"
+                href="https://autopilot-monnify.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View live site</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
             </div>
           </article>
 
           <article class="project-card feature-card">
             <div class="project-visual productivity image-visual">
               <img
-                src="public/images/prodily.png"
+                src="public/images/prodilly.png"
                 alt="Prodily productivity and culture management platform"
                 loading="lazy"
               />
             </div>
             <div class="project-content">
               <div class="card-topline">
-                <span
-                  ><i data-lucide="briefcase" aria-hidden="true"></i
-                  >Prodily</span
-                >
+                <span>Prodily</span>
                 <span>React / TypeScript</span>
               </div>
               <h3>Multi-role productivity and culture management platform</h3>
@@ -292,42 +309,15 @@
                   estimated 40%.
                 </li>
               </ul>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual health image-visual">
-              <img
-                src="public/images/carelexa.png"
-                alt="Carelexa healthcare PWA dashboard"
-                loading="lazy"
-              />
-            </div>
-            <div class="project-content">
-              <div class="card-topline">
-                <span
-                  ><i data-lucide="heart-pulse" aria-hidden="true"></i
-                  >Carelexa</span
-                >
-                <span>React / TypeScript</span>
-              </div>
-              <h3>Multi-role healthcare PWA</h3>
-              <p>
-                Maintained frontend architecture for patients, doctors, and
-                admins across 40+ protected routes covering bookings, schedules,
-                records, consultations, and admin flows.
-              </p>
-              <ul class="impact-list">
-                <li>Reduced booking friction by an estimated 40-50%.</li>
-                <li>
-                  Built doctor consultation workspaces and availability
-                  management.
-                </li>
-                <li>
-                  Integrated Daily.co video calls with tokenized rooms and call
-                  controls.
-                </li>
-              </ul>
+              <a
+                class="project-link"
+                href="https://www.prodily.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View live site</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
             </div>
           </article>
 
@@ -341,13 +331,7 @@
             </div>
             <div class="project-content">
               <div class="card-topline">
-                <span
-                  ><i
-                    data-lucide="chart-no-axes-combined"
-                    aria-hidden="true"
-                  ></i
-                  >Platline</span
-                >
+                <span>Platline</span>
                 <span>NestJS / React / Redis</span>
               </div>
               <h3>Sports analytics and subscription platform</h3>
@@ -364,54 +348,29 @@
                   $5k+ MRR.
                 </li>
               </ul>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual crypto image-visual">
-              <img
-                src="public/images/top-token-trader"
-                alt="Top Token Trader crypto analytics visualizer"
-                loading="lazy"
-              />
-            </div>
-            <div class="project-content">
-              <div class="card-topline">
-                <span
-                  ><i data-lucide="trending-up" aria-hidden="true"></i>Top Token
-                  Trader</span
-                >
-                <span>D3.js / React / Alchemy API</span>
-              </div>
-              <h3>Top Token Trader Visualizer</h3>
-              <p>
-                Client needed a developer to build an interactive crypto
-                analytics tool that visualizes top ERC20 token traders across
-                multiple chains. I created a Telegram Web App and web dashboard
-                that displays real-time trading activity using an advanced D3.js
-                bubble map, powered by live data from the Alchemy API. Users can
-                explore wallet performance and token movements within custom
-                time frames. The result was a fast, intuitive platform built for
-                a crypto analytics challenge, giving traders clear insights into
-                emerging market trends.
-              </p>
+              <a
+                class="project-link"
+                href="https://www.platlinesports.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View live site</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-visual solana image-visual">
               <img
-                src="public/images/matchlock.png"
+                src="public/images/matclock.png"
                 alt="Matchlock peer-to-peer sports wagering on Solana"
                 loading="lazy"
               />
             </div>
             <div class="project-content">
               <div class="card-topline">
-                <span
-                  ><i data-lucide="crosshair" aria-hidden="true"></i
-                  >Matchlock</span
-                >
+                <span>Matchlock</span>
                 <span>Anchor / Go / React</span>
               </div>
               <h3>Peer-to-peer sports wagering on Solana</h3>
@@ -434,6 +393,219 @@
                 <li>
                   React 19 frontend (Vite 8, TypeScript 6, Tailwind 4, Base UI,
                   Zod 4).
+                </li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://matchlock-u1ww.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View live site</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card feature-card">
+            <div class="project-visual energy image-visual">
+              <img
+                src="public/images/wattlens"
+                alt="Wattlens energy data platform dashboard"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <span>Wattlens</span>
+                <span>Energy Analytics / SaaS</span>
+              </div>
+              <h3>Cloud energy data platform for renewable professionals</h3>
+              <p>
+                Wattlens turns raw, messy CSV energy and load data into clean
+                insights, interactive visualizations, and professional reports
+                in under 5 minutes—no Excel expertise or coding required. Built
+                for renewable energy developers, consultants/auditors, and
+                ESG/sustainability teams (wattlens.com).
+              </p>
+              <ul class="impact-list">
+                <li>
+                  Automated data cleaning, structure analysis, and instant chart
+                  generation from bulky CSV uploads.
+                </li>
+                <li>
+                  Natural-language “chat with your data” for trends, peak loads,
+                  efficiency, and related energy questions.
+                </li>
+                <li>
+                  One-click polished PDF reports plus fast exports to HOMER and
+                  PVsyst for load-profile formatting and feasibility studies.
+                </li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://www.wattlens.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View live site</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual food image-visual">
+              <img
+                src="public/images/fries-n-spice.png"
+                alt="Fries n' Spice breakfast and food brand website"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <span>Fries n' Spice</span>
+                <span>Web / WhatsApp Commerce</span>
+              </div>
+              <h3>
+                Brand site for a Yaba breakfast &amp; food-tray business
+              </h3>
+              <p>
+                Built a conversion-focused website for Fries n' Spice — Joana’s
+                Lagos brand for breakfasts, loaded fries, and event food trays.
+                The site showcases the menu, story, and social proof while
+                routing orders straight to WhatsApp so customers can buy with
+                zero friction.
+              </p>
+              <ul class="impact-list">
+                <li>
+                  Highlighted 3,000+ meals sold, 1,000+ guests catered, and 5+
+                  years in Yaba with a hero built for cravings-first conversion.
+                </li>
+                <li>
+                  Structured menu offerings (breakfast platters, pancakes &amp;
+                  waffles, loaded fries, food trays, combos) with clear CTAs to
+                  customize and order.
+                </li>
+                <li>
+                  WhatsApp-first order flow, catering inquiries for events, and
+                  reviews/gallery sections to build trust for delivery and
+                  pickups.
+                </li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://spice-yaba-bites.base44.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View live site</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual crypto image-visual">
+              <img
+                src="public/images/top-token-trader"
+                alt="Top Token Trader crypto analytics visualizer"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <span>Top Token Trader</span>
+                <span>D3.js / React / Alchemy API</span>
+              </div>
+              <h3>Top Token Trader Visualizer</h3>
+              <p>
+                Client needed a developer to build an interactive crypto
+                analytics tool that visualizes top ERC20 token traders across
+                multiple chains. I created a Telegram Web App and web dashboard
+                that displays real-time trading activity using an advanced D3.js
+                bubble map, powered by live data from the Alchemy API. Users can
+                explore wallet performance and token movements within custom
+                time frames. The result was a fast, intuitive platform built for
+                a crypto analytics challenge, giving traders clear insights into
+                emerging market trends.
+              </p>
+              <a
+                class="project-link"
+                href="https://bubblemapsviz.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View live site</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card feature-card">
+            <div class="project-visual manufacturing image-visual">
+              <img
+                src="public/images/ekomass.png"
+                alt="Ekomass manufacturing marketplace system"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <span>Ekomass</span>
+                <span>Go / Gin / PostgreSQL</span>
+              </div>
+              <h3>Multi-sided manufacturing marketplace backend</h3>
+              <p>
+                Architected 50+ REST endpoints across onboarding, catalog,
+                marketplace feed, ordering, escrow, referrals, production
+                batches, and identity workflows.
+              </p>
+              <ul class="impact-list">
+                <li>
+                  20+ marketplace and payment entities with indexes, audit
+                  trails, and constraints.
+                </li>
+                <li>
+                  Transactional order creation with inventory reservation and
+                  escrow handling.
+                </li>
+                <li>
+                  TTL cached NGN-to-USD conversion with fallback rates for
+                  resilience.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual health image-visual">
+              <img
+                src="public/images/carelexa.png"
+                alt="Carelexa healthcare PWA dashboard"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-content">
+              <div class="card-topline">
+                <span>Carelexa</span>
+                <span>React / TypeScript</span>
+              </div>
+              <h3>Multi-role healthcare PWA</h3>
+              <p>
+                Maintained frontend architecture for patients, doctors, and
+                admins across 40+ protected routes covering bookings, schedules,
+                records, consultations, and admin flows.
+              </p>
+              <ul class="impact-list">
+                <li>Reduced booking friction by an estimated 40-50%.</li>
+                <li>
+                  Built doctor consultation workspaces and availability
+                  management.
+                </li>
+                <li>
+                  Integrated Daily.co video calls with tokenized rooms and call
+                  controls.
                 </li>
               </ul>
             </div>
@@ -494,14 +666,14 @@
         <div>
           <p class="eyebrow">Freelance Impact</p>
           <h2>10+ client projects shipped</h2>
-          <p>Fintech · Health · Crypto · Manufacturing</p>
+          <p>Fintech · Health · Crypto · Manufacturing · Energy</p>
         </div>
         <p>
           Delivered production systems across domains — from manufacturing
-          marketplaces and healthcare PWAs to sports analytics, crypto
-          visualizers, and Solana programs. Each project meant owning the
-          architecture, shipping under real deadlines, and leaving the client
-          with something that actually ran.
+          marketplaces and healthcare PWAs to energy analytics, consumer
+          fintech, sports platforms, crypto visualizers, and Solana programs.
+          Each project meant owning the architecture, shipping under real
+          deadlines, and leaving the client with something that actually ran.
         </p>
       </section>
 

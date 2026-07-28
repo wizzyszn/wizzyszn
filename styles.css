@@ -622,6 +622,39 @@ h3 {
   font-size: 0.94rem;
 }
 
+.founder-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: -8px 0 18px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(237, 237, 237, 0.22);
+  padding-bottom: 1px;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.founder-line svg {
+  width: 0.85em;
+  height: 0.85em;
+  transition: transform 180ms var(--ease-out);
+}
+
+.founder-line:hover,
+.founder-line:focus-visible {
+  color: var(--red);
+  border-bottom-color: rgba(255, 0, 61, 0.7);
+  outline: none;
+}
+
+.founder-line:hover svg,
+.founder-line:focus-visible svg {
+  transform: translate(1px, -1px);
+}
+
 .status-dot {
   width: 12px;
   height: 12px;
@@ -839,6 +872,42 @@ h3 {
   aspect-ratio: 2 / 1;
 }
 
+.project-visual.energy {
+  background:
+    linear-gradient(135deg, rgba(255, 0, 61, 0.18) 0 36%, transparent 36% 100%),
+    repeating-linear-gradient(90deg, rgba(237, 237, 237, 0.06) 0 1px, transparent 1px 20px),
+    radial-gradient(circle at 72% 30%, rgba(255, 0, 61, 0.42) 0 5px, transparent 6px),
+    #151515;
+}
+
+.project-visual.energy.image-visual {
+  aspect-ratio: 16 / 9;
+}
+
+.project-visual.food {
+  background:
+    linear-gradient(135deg, rgba(255, 0, 61, 0.22) 0 28%, transparent 28% 100%),
+    radial-gradient(circle at 80% 70%, rgba(255, 0, 61, 0.28) 0 5px, transparent 6px),
+    repeating-linear-gradient(90deg, rgba(237, 237, 237, 0.05) 0 1px, transparent 1px 18px),
+    #151515;
+}
+
+.project-visual.food.image-visual {
+  aspect-ratio: 2 / 1;
+}
+
+.project-visual.fintech {
+  background:
+    linear-gradient(145deg, transparent 0 42%, rgba(255, 0, 61, 0.72) 42% 56%, transparent 56% 100%),
+    radial-gradient(circle at 18% 70%, rgba(255, 0, 61, 0.36) 0 5px, transparent 6px),
+    repeating-linear-gradient(0deg, rgba(237, 237, 237, 0.05) 0 1px, transparent 1px 16px),
+    #151515;
+}
+
+.project-visual.fintech.image-visual {
+  aspect-ratio: 2 / 1;
+}
+
 .project-visual.crypto {
   background:
     radial-gradient(circle at 36% 42%, rgba(255, 0, 61, 0.48) 0 6px, transparent 7px),
@@ -913,6 +982,39 @@ h3 {
 
 .project-card:hover .impact-list li::before {
   transform: scale(1.16);
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 22px;
+  color: var(--white);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: color 180ms var(--ease-out), gap 180ms var(--ease-out);
+}
+
+.project-link svg {
+  width: 1em;
+  height: 1em;
+  transition: transform 180ms var(--ease-out);
+}
+
+.project-link:hover {
+  color: var(--red);
+  gap: 12px;
+}
+
+.project-link:hover svg {
+  transform: translate(2px, -2px);
+}
+
+.project-link:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
 .split-section {
