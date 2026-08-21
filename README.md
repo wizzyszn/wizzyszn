@@ -23,7 +23,10 @@ I help founders, startups, and growing businesses turn ideas and complex require
 - Design APIs, databases, authentication, payments, real time features, and integrations
 - Identify technical risks and edge cases before they become expensive problems
 - Use AI and modern development tools to move faster without outsourcing engineering judgment to them
+- Design and ship AI automation into real workflows — from n8n pipelines and agentic flows to LLM-powered product features, internal ops tools, and system integrations
 - Improve existing products when the problem is architecture, performance, reliability, or technical debt
+
+I don’t treat AI as a novelty layer. I wire it into how products actually run: automating repetitive operations with tools like n8n, connecting models to APIs and databases with clear guardrails, building assistant and agent flows where they reduce real work, and keeping humans in control of the decisions that matter. The goal is leverage — faster delivery and cleaner operations — without handing engineering judgment over to a black box.
 
 **The difference is in the thinking.**
 
@@ -47,6 +50,7 @@ Those decisions are what turn code into software that businesses can actually de
 - High performance marketing websites
 - Custom business systems and internal tools
 - Scalable APIs and backend services
+- AI automation workflows, n8n pipelines, and LLM-powered product features
 
 20+ projects delivered for startups and growing businesses, with a focus on clear communication, thoughtful engineering, and software that solves the actual business problem.
 
@@ -177,6 +181,13 @@ If you need someone who can contribute beyond the code and take real ownership o
 ![AWS](https://img.shields.io/badge/AWS-111111?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-111111?style=flat-square&logo=kubernetes&logoColor=326CE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111111?style=flat-square&logo=githubactions&logoColor=2088FF)
+
+**AI & Automation**
+
+![n8n](https://img.shields.io/badge/n8n-111111?style=flat-square&logo=n8n&logoColor=EA4B71)
+![OpenAI](https://img.shields.io/badge/OpenAI-111111?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-111111?style=flat-square&logo=langchain&logoColor=1C3C3C)
+![Anthropic](https://img.shields.io/badge/Anthropic-111111?style=flat-square&logo=anthropic&logoColor=white)
 
 </div>
 
