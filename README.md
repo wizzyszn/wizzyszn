@@ -1,64 +1,60 @@
 <div align="center">
-  <a href="https://wisdomolubayo.bio/">
-    <img src="./public/images/portfolio-pic.jpg" width="150" alt="Olubayo Wisdom" />
-  </a>
-
-  <h1>Olubayo Wisdom</h1>
-
-  <p>
-    <strong>Software Engineer &middot; Product Designer &middot; Founder at <a href="https://reslve.org">Reslve</a></strong>
-  </p>
-
-  <p>
-    I turn ambitious product ideas into fast, scalable, AI-enhanced applications<br />
-    built for real users and measurable business impact.
-  </p>
-
-  <p>
-    <a href="https://wisdomolubayo.bio/">
-      <img src="https://img.shields.io/badge/Portfolio-ff003d?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-    </a>
-    <a href="https://cal.com/wizzyszn/30min">
-      <img src="https://img.shields.io/badge/Book_a_Call-111111?style=for-the-badge&logo=caldotcom&logoColor=white" alt="Book a call" />
-    </a>
-    <a href="mailto:wisdomolubayoadedoyin@yahoo.com">
-      <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=yahoo&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://www.linkedin.com/in/wisdom-olubayo-32413031a/">
-      <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://x.com/WisdomOlubayo">
-      <img src="https://img.shields.io/badge/Follow-111111?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X" />
-    </a>
-  </p>
-</div>
 
 ---
 
-## I build products that hold up in the real world
+## Most people think software engineering is about writing code.
 
-My work spans frontend architecture, backend systems, data-heavy dashboards,
-payments, subscriptions, healthcare workflows, energy analytics, and on-chain
-programs. I am most useful where product thinking and engineering depth need to
-meet.
+It isn’t.
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>10+</strong><br /><sub>client products shipped</sub></td>
-      <td align="center"><strong>1M+</strong><br /><sub>data points synced daily</sub></td>
-      <td align="center"><strong>126</strong><br /><sub>routes in one analytics platform</sub></td>
-      <td align="center"><strong>200ms</strong><br /><sub>optimized analytics latency</sub></td>
-    </tr>
-  </table>
 </div>
 
-### What I focus on
+The hard part is understanding the problem, making the right technical decisions, anticipating what can go wrong, and building something that still works when the product, users, and requirements change.
 
-- Designing and shipping complete web products, from interface to infrastructure
-- Building scalable APIs, data pipelines, payments, and subscription systems
-- Turning complex operational workflows into clear, efficient product experiences
-- Improving performance, reliability, accessibility, and delivery quality
+That’s the value I bring as a modern software engineer.
+
+I help founders, startups, and growing businesses turn ideas and complex requirements into reliable web applications and SaaS products that are built to perform, scale, and evolve.
+
+### What I bring to the table
+
+- Turn business requirements into practical technical solutions
+- Design systems with scalability, security, performance, and maintainability in mind
+- Build full stack applications from product concept to production
+- Transform Figma designs into responsive, high quality interfaces
+- Design APIs, databases, authentication, payments, real time features, and integrations
+- Identify technical risks and edge cases before they become expensive problems
+- Use AI and modern development tools to move faster without outsourcing engineering judgment to them
+- Improve existing products when the problem is architecture, performance, reliability, or technical debt
+
+**The difference is in the thinking.**
+
+Anyone can generate a function. The real engineering work starts when you have to decide what that function should actually do.
+
+What happens when two users perform the same action at once?
+
+What happens when a payment succeeds but the network fails?
+
+What happens when traffic suddenly increases?
+
+What happens when a requirement changes six months from now?
+
+Those decisions are what turn code into software that businesses can actually depend on.
+
+### What I’ve built
+
+- SaaS and B2B platforms
+- E-commerce applications with payment integrations
+- Real time applications, dashboards, chat and notifications
+- High performance marketing websites
+- Custom business systems and internal tools
+- Scalable APIs and backend services
+
+20+ projects delivered for startups and growing businesses, with a focus on clear communication, thoughtful engineering, and software that solves the actual business problem.
+
+I don’t just take requirements and write code.
+
+I think through the problem, challenge assumptions when necessary, make the tradeoffs clear, and build software that can survive beyond the first version.
+
+If you need someone who can contribute beyond the code and take real ownership of the technical side of your product, let’s talk.
 
 ## Featured work
 
@@ -73,8 +69,8 @@ meet.
         A Nigerian bill-payment product that automates electricity, cable,
         airtime, data, and subscription payments from one smart Monnify wallet.
       </p>
-      <p><strong>Fintech &middot; Mobile &middot; Web</strong></p>
-      <a href="https://autopilot-monnify.netlify.app/">View live product &rarr;</a>
+      <p><strong>Fintech · Mobile · Web</strong></p>
+      <a href="https://autopilot-monnify.netlify.app/">View live product →</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://www.prodily.tech/">
@@ -85,8 +81,8 @@ meet.
         A multi-role productivity and culture platform for onboarding, tasks,
         meetings, wellbeing, time tracking, and workforce insights.
       </p>
-      <p><strong>React &middot; TypeScript &middot; Product Analytics</strong></p>
-      <a href="https://www.prodily.tech/">View live product &rarr;</a>
+      <p><strong>React · TypeScript · Product Analytics</strong></p>
+      <a href="https://www.prodily.tech/">View live product →</a>
     </td>
   </tr>
   <tr>
@@ -99,8 +95,8 @@ meet.
         A sports analytics and subscription platform with 126 routes across 25
         modules, daily MLB data synchronization, and a full React dashboard.
       </p>
-      <p><strong>NestJS &middot; React &middot; Redis &middot; Stripe</strong></p>
-      <a href="https://www.platlinesports.com">View live product &rarr;</a>
+      <p><strong>NestJS · React · Redis · Stripe</strong></p>
+      <a href="https://www.platlinesports.com">View live product →</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://matchlock-u1ww.onrender.com/">
@@ -111,8 +107,8 @@ meet.
         Peer-to-peer sports wagering on Solana with on-chain escrow, oracle
         settlement, and a Go keeper/API.
       </p>
-      <p><strong>Anchor &middot; Rust &middot; Go &middot; React &middot; Solana</strong></p>
-      <a href="https://matchlock-u1ww.onrender.com/">View live product &rarr;</a>
+      <p><strong>Anchor · Rust · Go · React · Solana</strong></p>
+      <a href="https://matchlock-u1ww.onrender.com/">View live product →</a>
     </td>
   </tr>
   <tr>
@@ -125,8 +121,8 @@ meet.
         A cloud energy-data platform that turns raw CSV files into clean
         insights, visualizations, natural-language answers, and reports.
       </p>
-      <p><strong>Energy Analytics &middot; SaaS &middot; AI</strong></p>
-      <a href="https://www.wattlens.com">View live product &rarr;</a>
+      <p><strong>Energy Analytics · SaaS · AI</strong></p>
+      <a href="https://www.wattlens.com">View live product →</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://bubblemapsviz.onrender.com/">
@@ -137,14 +133,14 @@ meet.
         An interactive crypto analytics tool for exploring ERC-20 trader
         activity through a live D3.js bubble map and Telegram Web App.
       </p>
-      <p><strong>D3.js &middot; React &middot; Alchemy API</strong></p>
-      <a href="https://bubblemapsviz.onrender.com/">View live product &rarr;</a>
+      <p><strong>D3.js · React · Alchemy API</strong></p>
+      <a href="https://bubblemapsviz.onrender.com/">View live product →</a>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <a href="https://wisdomolubayo.bio/#work"><strong>Explore all projects on my portfolio &rarr;</strong></a>
+  <a href="https://wisdomolubayo.bio/#work"><strong>Explore all projects on my portfolio →</strong></a>
 </div>
 
 ## Technology
@@ -184,39 +180,19 @@ meet.
 
 </div>
 
-## GitHub activity
-
-<div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-stats-extended.vercel.app/api?username=wizzyszn&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=ff003d&amp;icon_color=ff003d&amp;text_color=ededed"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-stats-extended.vercel.app/api?username=wizzyszn&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=d80035&amp;icon_color=d80035&amp;text_color=222222"
-    />
-    <img
-      height="170"
-      src="https://github-stats-extended.vercel.app/api?username=wizzyszn&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=ff003d&amp;icon_color=ff003d&amp;text_color=ededed"
-      alt="Olubayo Wisdom's GitHub statistics"
-    />
-  </picture>
-</div>
-
 ---
 
 <div align="center">
-  <h3>Let&rsquo;s build something useful.</h3>
+  <h3>Let’s build something useful.</h3>
   <p>
     I am open to software engineering roles, contract builds, and ambitious
     product teams.
   </p>
   <p>
     <a href="mailto:wisdomolubayoadedoyin@yahoo.com"><strong>Email me</strong></a>
-    &nbsp;&middot;&nbsp;
+     · 
     <a href="https://cal.com/wizzyszn/30min"><strong>Book a call</strong></a>
-    &nbsp;&middot;&nbsp;
+     · 
     <a href="https://wisdomolubayo.bio/"><strong>Visit my portfolio</strong></a>
   </p>
 </div>
