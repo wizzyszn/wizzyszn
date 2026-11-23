@@ -34,8 +34,6 @@ export interface Project {
   category: string
   year: string
   cover: string
-  /** Use 'contain' for screenshots that must not be cropped by the card frame. */
-  coverFit?: 'cover' | 'contain'
   shots?: string[]
   tint: string
   summary: string
@@ -230,7 +228,6 @@ export const projects: Project[] = [
     category: 'Brand website',
     year: '2026',
     cover: '/images/godin-cover.webp',
-    coverFit: 'contain',
     shots: ['/images/godin-about.webp', '/images/godin-approach.webp', '/images/godin-portfolio.webp'],
     tint: '#efe7da',
     summary:
@@ -266,7 +263,6 @@ export const projects: Project[] = [
     category: 'Brand website',
     year: '2026',
     cover: '/images/tona-cover.webp',
-    coverFit: 'contain',
     shots: ['/images/tona-story.webp', '/images/tona-food.webp', '/images/tona-menu.webp'],
     tint: '#f2e9d7',
     summary:
@@ -303,7 +299,6 @@ export const projects: Project[] = [
     category: 'Brand website',
     year: '2026',
     cover: '/images/downlow-cover.webp',
-    coverFit: 'contain',
     shots: [
       '/images/downlow-menu.webp',
       '/images/downlow-heat.webp',

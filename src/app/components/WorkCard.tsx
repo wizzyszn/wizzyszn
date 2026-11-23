@@ -4,7 +4,6 @@ import { Link } from 'react-router'
 
 import type { Project } from '../../data/site'
 import { cx } from '../lib/cx'
-import { Parallax } from './motion'
 
 export function WorkCard({ project, index = 0 }: { project: Project; index?: number }) {
   const ref = useRef<HTMLAnchorElement>(null)
@@ -33,26 +32,17 @@ export function WorkCard({ project, index = 0 }: { project: Project; index?: num
         }}
       >
         <div
-          className={cx(
-            'relative overflow-hidden rounded-image',
-            project.coverFit === 'contain' ? 'aspect-[16/10]' : 'aspect-[4/3] sm:aspect-[16/10] lg:aspect-[1.9/1]',
-          )}
+          className={cx('relative aspect-[16/10] overflow-hidden rounded-image sm:aspect-[16/9]')}
           style={{ background: project.tint }}
         >
-          {project.coverFit === 'contain' ? (
-            <div className="absolute inset-0 p-4 sm:p-6 lg:p-8">
-              <img
-                src={project.cover}
-                alt={project.title}
-                loading="lazy"
-                className="size-full object-contain drop-shadow-[0_18px_38px_rgba(0,0,0,0.28)] transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.015]"
-              />
-            </div>
-          ) : (
-            <div className="absolute inset-0 transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.03]">
-              <Parallax src={project.cover} alt={project.title} className="size-full" strength={5} />
-            </div>
-          )}
+          <div className="absolute inset-0 p-4 sm:p-6 lg:p-8">
+            <img
+              src={project.cover}
+              alt={project.title}
+              loading="lazy"
+              className="size-full object-contain drop-shadow-[0_18px_38px_rgba(0,0,0,0.28)] transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.015]"
+            />
+          </div>
           <motion.span
             aria-hidden
             style={{ x, y }}

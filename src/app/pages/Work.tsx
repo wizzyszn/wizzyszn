@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router'
 
 import { bySlug, projects } from '../../data/site'
-import { Lines, Parallax, Reveal } from '../components/motion'
+import { Lines, Reveal } from '../components/motion'
 
 const ease = [0.22, 1, 0.36, 1] as const
 
@@ -35,15 +35,11 @@ export function Work() {
         className="mt-12 overflow-hidden rounded-[32px]"
         style={{ background: project.tint }}
       >
-        {project.coverFit === 'contain' ? (
-          <img
-            src={project.cover}
-            alt={project.title}
-            className="mx-auto block h-auto max-h-[82vh] w-auto max-w-full object-contain p-3 sm:p-8 lg:p-10"
-          />
-        ) : (
-          <Parallax src={project.cover} alt={project.title} className="aspect-[16/10] sm:aspect-[16/9]" strength={5} />
-        )}
+        <img
+          src={project.cover}
+          alt={project.title}
+          className="mx-auto block h-auto max-h-[82vh] w-auto max-w-full object-contain p-3 sm:p-8 lg:p-10"
+        />
       </motion.div>
 
       {project.facts && (
@@ -125,7 +121,7 @@ export function Work() {
         <div className="mt-3 flex items-end justify-between gap-6">
           <h2 className="font-display text-[clamp(44px,8vw,120px)] transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-3">{next.title}</h2>
           <span className="image-frame hidden aspect-[16/9] w-[300px] shrink-0 rounded-[20px] sm:block" style={{ background: next.tint }}>
-            <img src={next.cover} alt="" className="size-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src={next.cover} alt="" className="size-full object-contain p-2 transition-transform duration-700 group-hover:scale-105" />
           </span>
         </div>
       </Link>
